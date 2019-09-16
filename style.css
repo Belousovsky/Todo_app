@@ -1,0 +1,66 @@
+  .container {
+    margin: 100px auto
+}
+
+.tasks {
+    padding: 15px auto  ;
+}
+
+#taskInput {
+    margin: 15px auto;
+}
+
+#taskList {
+    width: 80%;
+    margin-left: 25%;
+    margin-top: -4.2%;
+}
+
+.task {
+    margin: 5px;
+    max-width: 90%;
+}
+
+#pagination {
+    margin-left: 5px;
+}
+
+.page {
+    margin-right: 2px;
+}
+
+.btn-group {
+    margin: 5px;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+
+#taskAdd {
+    margin-left: 5px;
+}
+
+#dltall {
+    margin-left: 2px;
+}
+
+.task {
+   word-break: break-word;
+   overflow: hidden;
+}
+
+#taskCounter {
+    padding-left: 15px;
+
+}
+
+.my-state-style {
+    background-color: #d1ecf1 !important;
+    color: black !important;
+}
+
+.my-page-style {
+  background-color: #d1ecf1 !important;
+  color: black !important;
+}

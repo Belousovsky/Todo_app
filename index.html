@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDo List
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div id="header">
+
+            <input type="checkbox" id="checkall"class="check-all"/> Check All
+            <button type="button" id="taskAdd" class="btn btn-success">Add</button>
+            <button type="button" id="dltall" class="btn btn-danger">Delete Completed</button>
+            <input autofocus autocomplete="off"  type="text" class="form-control" id="taskInput" placeholder="Example input">
+            <div id="pagination" class="pagination"></div>
+
+        </div>
+        <div id="tasks">
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button id="all" type="button" class="style-state my-state-style btn btn-secondary">All</button>
+                <button id="active" type="button" class="style-state btn btn-secondary">Active</button>
+                <button id="completed" type="button" class="style-state btn btn-secondary">Completed</button>
+            </div>
+
+            <ul class="list-group" id="taskList">
+            </ul>
+        </div>
+        <div id="taskCounter"></div>
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
